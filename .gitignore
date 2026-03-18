@@ -1,3 +1,5 @@
 # Godot 4+ specific ignores
-.godot/
-/android/
+/client/.godot/
+/client/android/
+/node_modules
+package-lock.json

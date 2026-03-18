@@ -1,0 +1,2 @@
+1. npm run setup (first time run only)
+2. npm run dev

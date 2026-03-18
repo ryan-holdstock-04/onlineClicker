@@ -1,0 +1,53 @@
+[gd_scene format=3 uid="uid://cve0kmh4po51i"]
+
+[ext_resource type="Script" uid="uid://d7waj4s1wi81" path="res://main.gd" id="1_ig7tw"]
+
+[node name="Node2D" type="Node2D" unique_id=514606599]
+script = ExtResource("1_ig7tw")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1152236566]
+offset_right = 500.0
+offset_bottom = 502.0
+color = Color(0.84491664, 0.9057436, 0.8636038, 1)
+
+[node name="HBoxContainer" type="HBoxContainer" parent="." unique_id=1144791167]
+offset_left = 43.0
+offset_top = 276.0
+offset_right = 457.0
+offset_bottom = 428.0
+theme_override_constants/separation = 75
+
+[node name="player1_button" type="Button" parent="HBoxContainer" unique_id=480498076]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "player 1"
+
+[node name="player2_button" type="Button" parent="HBoxContainer" unique_id=1655149475]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "player 2"
+
+[node name="HBoxContainer2" type="HBoxContainer" parent="." unique_id=1922286868]
+offset_left = 44.0
+offset_top = 57.0
+offset_right = 458.0
+offset_bottom = 209.0
+theme_override_constants/separation = 75
+
+[node name="player1_score" type="RichTextLabel" parent="HBoxContainer2" unique_id=791672411]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_colors/default_color = Color(0.22719714, 0.30780467, 0.25467244, 1)
+text = "player 1 clicks:"
+horizontal_alignment = 1
+
+[node name="player2_score" type="RichTextLabel" parent="HBoxContainer2" unique_id=1557950919]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_colors/default_color = Color(0.22719714, 0.30780467, 0.25467244, 1)
+text = "player 2 clicks:"
+horizontal_alignment = 1
+
+[node name="Line2D" type="Line2D" parent="." unique_id=319222417]
+points = PackedVector2Array(250, -15, 250, 530)
+default_color = Color(0.37074065, 0.4828261, 0.40858424, 1)

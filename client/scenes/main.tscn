@@ -1,11 +1,11 @@
 [gd_scene format=3 uid="uid://cve0kmh4po51i"]
 
-[ext_resource type="Script" uid="uid://d7waj4s1wi81" path="res://main.gd" id="1_ig7tw"]
+[ext_resource type="Script" uid="uid://d7waj4s1wi81" path="res://scripts/main.gd" id="1_o5qli"]
 
 [node name="Node2D" type="Node2D" unique_id=514606599]
-script = ExtResource("1_ig7tw")
+script = ExtResource("1_o5qli")
 
-[node name="ColorRect" type="ColorRect" parent="." unique_id=1152236566]
+[node name="bg" type="ColorRect" parent="." unique_id=1152236566]
 offset_right = 500.0
 offset_bottom = 502.0
 color = Color(0.84491664, 0.9057436, 0.8636038, 1)

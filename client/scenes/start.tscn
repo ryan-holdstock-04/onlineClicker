@@ -1,0 +1,37 @@
+[gd_scene format=3 uid="uid://btp8mflyg8lcf"]
+
+[ext_resource type="Script" uid="uid://y55v3s57p85x" path="res://scenes/start.gd" id="1_jaeev"]
+
+[node name="Node2D" type="Node2D" unique_id=1102101497]
+script = ExtResource("1_jaeev")
+
+[node name="bg" type="ColorRect" parent="." unique_id=1496203122]
+offset_left = -2.0
+offset_top = -1.0
+offset_right = 498.0
+offset_bottom = 501.0
+color = Color(0.929985, 0.87047887, 0.8740781, 1)
+
+[node name="HBoxContainer" type="HBoxContainer" parent="." unique_id=47917485]
+offset_left = 43.0
+offset_top = 276.0
+offset_right = 457.0
+offset_bottom = 428.0
+theme_override_constants/separation = 75
+
+[node name="start_button" type="Button" parent="HBoxContainer" unique_id=1929929886]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Start Game
+"
+
+[node name="title_label" type="RichTextLabel" parent="." unique_id=1209979161]
+offset_left = 82.0
+offset_top = 91.0
+offset_right = 418.0
+offset_bottom = 199.0
+theme_override_colors/default_color = Color(0.50707495, 0.35384667, 0.36729214, 1)
+theme_override_font_sizes/normal_font_size = 32
+text = "Super Good Clicking Game Title!!!!"
+horizontal_alignment = 1
+vertical_alignment = 1

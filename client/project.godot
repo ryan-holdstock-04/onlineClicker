@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="onlineClicker"
-run/main_scene="uid://cve0kmh4po51i"
+run/main_scene="uid://btp8mflyg8lcf"
 config/features=PackedStringArray("4.6", "Mobile")
 
 [display]

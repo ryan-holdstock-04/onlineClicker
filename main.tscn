@@ -20,18 +20,18 @@ theme_override_constants/separation = 75
 [node name="player1_button" type="Button" parent="HBoxContainer" unique_id=480498076]
 layout_mode = 2
 size_flags_horizontal = 3
-text = "player 1"
+text = "Press me or A"
 
 [node name="player2_button" type="Button" parent="HBoxContainer" unique_id=1655149475]
 layout_mode = 2
 size_flags_horizontal = 3
-text = "player 2"
+text = "Press me or L"
 
 [node name="HBoxContainer2" type="HBoxContainer" parent="." unique_id=1922286868]
 offset_left = 44.0
-offset_top = 57.0
+offset_top = 136.0
 offset_right = 458.0
-offset_bottom = 209.0
+offset_bottom = 210.0
 theme_override_constants/separation = 75
 
 [node name="player1_score" type="RichTextLabel" parent="HBoxContainer2" unique_id=791672411]

@@ -13,6 +13,13 @@ func _ready():
 	player1_button.pressed.connect(player1_add)
 	player2_button.pressed.connect(player2_add)
 
+func _process(_delta):
+	if Input.is_action_just_pressed("player1_press"):
+		player1_add()
+	if Input.is_action_just_pressed("player2_press"):
+		player2_add()
+	
+
 func player1_add():
 	player1_score += 1
 	player1_label.text = str("player 1 clicks:\n",player1_score)
